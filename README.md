@@ -11,4 +11,13 @@ This extension integrates an AI backend powered by GPT-based models (CodeLlama o
 
 4) Automatic generation of unit tests
 
+| Steps | Task                                   |
+| ----- | -------------------------------------- |
+| 1     | Set up your project structure          |
+| 2     | Build and test AI backend (Python API) |
+| 3     | Develop VS Code extension (Frontend)   |
+| 4     | Integrate frontend with AI backend     |
+| 5     | Package, document, and deploy          |
+
+
 
