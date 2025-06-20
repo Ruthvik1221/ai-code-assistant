@@ -1,0 +1,22 @@
+{
+    "name": "ai-code-assistant",
+    "displayName": "AI Code Assistant",
+    "description": "LLM-powered VS Code extension for code generation",
+    "version": "0.0.1",
+    "publisher": "<Ruthvik>",
+    "engines": {
+      "vscode": "^1.80.0"
+    },
+    "activationEvents": ["onCommand:aiCodeAssistant.generateCompletion"],
+    "main": "./extension.js",
+    "contributes": {
+      "commands": [{
+        "command": "aiCodeAssistant.generateCompletion",
+        "title": "AI Code Assistant: Generate Completion"
+      }]
+    },
+    "dependencies": {
+      "axios": "^1.6.0"
+    }
+  }
+  
